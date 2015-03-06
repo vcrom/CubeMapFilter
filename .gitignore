@@ -1,5 +1,14 @@
 # Assets:
 *.jpeg
+*.png
+/cubes
 
 #qt
-*.pro.user
+*.pro.user*
+
+
+#exec
+CubeMapFilter
+
+#Makefiles
+Makefile
