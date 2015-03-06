@@ -22,7 +22,6 @@ HEADERS += \
     utils.h \
     cubemapfilter.h
 
-QMAKE_CFLAGS_RELEASE    = -O3
-QMAKE_CXXFLAGS    = -O3
+QMAKE_CXXFLAGS    += -O3
 QMAKE_CXXFLAGS += -fopenmp
 LIBS += -fopenmp

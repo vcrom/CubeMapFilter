@@ -10,5 +10,8 @@
 #exec
 CubeMapFilter
 
+#c++
+*.o
+
 #Makefiles
 Makefile
