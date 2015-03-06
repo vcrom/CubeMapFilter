@@ -1,0 +1,5 @@
+# Assets:
+*.jpeg
+
+#qt
+*.pro.user
