@@ -42,6 +42,7 @@ void printHelp()
     std::cout << "-pow_range <min> <max> <step>" << std::endl; //min = 1, max = 8192
     std::cout << "-angle <value>" << std::endl;
     std::cout << "-mipmaps <min> <max>" << std::endl;
+    std::cout << "-fixup_band <width>" << std::endl; //band arround the cube edges to blurr between them.
 }
 
 void printUsage()
